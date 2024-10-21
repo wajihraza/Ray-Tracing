@@ -1,0 +1,21 @@
+# image properties
+resolution     1000 1000
+
+# camera settings
+camera_position     2     2     -2
+camera_look    0     0     0
+camera_up           0     1     0
+camera_fov       40
+
+mesh subdiv.obj 1
+
+# lights:             x     y     z     r     g     b
+light                 0     0    -999   0.5   0.3   0.3
+light                 0      0    -999   0.5   0.3   0.3
+light                -999      0     0     0.3   0.5   0.3
+light                 999      0     0     0.3   0.5   0.3
+light                0      -999     0     0.3   0.3   0.5
+light                 0      999     0     0.3   0.3   0.5
+
+# background color    r       g       b
+background            0.0     0.0     0.0
