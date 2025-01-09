@@ -3,4 +3,4 @@ This repository contains the ray tracer code I worked on for my GPU programming 
 
 The code is also parallelized using C++ threads library to perform computations efficiently. 
 
-I also wrote a parallel CUDA implementation, which can be seen in the .cu file.
+I also wrote a parallel CUDA implementation, which can be seen in the device_kernels.cuh and raytrace_gpu.cpp files.
